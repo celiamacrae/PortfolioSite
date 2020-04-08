@@ -1,5 +1,5 @@
 # Portfilio
 
-Getting Started:
-npm install
-npm start
+Getting Started: <br />
+npm install <br />
+npm start <br />
