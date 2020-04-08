@@ -1,7 +1,5 @@
 import React from 'react'
-import {NavLink, Link} from 'react-router-dom'
-// import {About, Projects, Skills, Contact} from './Components'
-
+import {NavLink} from 'react-router-dom'
 
 const Navbar = () => (
   <div>
