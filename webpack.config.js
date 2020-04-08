@@ -1,8 +1,9 @@
 module.exports = {
-  entry: './index.js',
+  entry: './client/index.js',
   output: {
     path: __dirname,
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    publicPath: '/'
   },
   mode: 'development',
   devtool: 'source-maps',
@@ -16,5 +17,8 @@ module.exports = {
         }
       }
     ]
+  },
+  devServer: {
+    historyApiFallback: true,
   }
 }

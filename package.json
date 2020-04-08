@@ -1,8 +1,8 @@
 {
-  "name": "red-and-blue",
+  "name": "portfolio_site",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "client/index.js",
   "scripts": {
     "start": "webpack-dev-server"
   },
