@@ -23,3 +23,29 @@ body, body > div {
 .nav_item {
   padding: 0px 20px;
 }
+
+/*SKILLS*/
+
+/* #skills{
+  display: flex;
+  flex-direction: column;
+
+} */
+
+/* .skill_set{
+  justify-items: center;
+} */
+
+.skill_img{
+  height: 50px;
+  width: 50px;
+}
+
+
+
+/*PROJECTS */
+
+.project_img{
+  height: 50px;
+  width: 50px;
+}
