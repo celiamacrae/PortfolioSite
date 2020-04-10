@@ -1,5 +1,6 @@
 * {
-  font-family: arial,sans-serif;
+  /* font-family: arial,sans-serif; */
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
   margin: 0;
 }
 
@@ -14,6 +15,8 @@ body, body > div {
   padding: 20px;
 }
 
+/*NAVIGATION*/
+
 #nav {
   display: flex;
   justify-content: center;
@@ -26,19 +29,30 @@ body, body > div {
 
 /*SKILLS*/
 
-/* #skills{
+.skill_level{
+  display: flex;
+  justify-content: center;
+}
+
+.skill_set{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.skill{
   display: flex;
   flex-direction: column;
+  margin: 10px;
+}
 
-} */
-
-/* .skill_set{
-  justify-items: center;
-} */
+.skill_name{
+  align-self: center;
+}
 
 .skill_img{
-  height: 50px;
-  width: 50px;
+  height: 90px;
+  width: 90px;
 }
 
 
@@ -46,6 +60,14 @@ body, body > div {
 /*PROJECTS */
 
 .project_img{
+  height: 50px;
+  width: 50px;
+}
+
+
+/*EDUCATION AND EXPERIENCE */
+
+.eduex_img{
   height: 50px;
   width: 50px;
 }
