@@ -15,6 +15,7 @@ body, body > div {
   padding: 20px;
 }
 
+
 /*NAVIGATION*/
 
 #nav {
@@ -26,6 +27,7 @@ body, body > div {
 .nav_item {
   padding: 0px 20px;
 }
+
 
 /*SKILLS*/
 
@@ -56,7 +58,6 @@ body, body > div {
 }
 
 
-
 /*PROJECTS */
 
 .project_img{
@@ -70,4 +71,33 @@ body, body > div {
 .eduex_img{
   height: 50px;
   width: 50px;
+}
+
+
+/*CONTACT*/
+
+#contact_me{
+  display: flex;
+  justify-content: center;
+}
+
+.contact_img {
+  height: 50px;
+  width: 50px;
+}
+
+.contact_wrapper{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.contact{
+  display: flex;
+  align-self: center;
+}
+
+.contact_link{
+  align-self: center;
+  margin: 10px;
 }
