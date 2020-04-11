@@ -25,6 +25,7 @@ class Skills extends Component  {
     render(){
       return (
         <div id='skills'>
+          <br />
           <h2 className='skill_level'>Proficient</h2>
           {/* <br /> */}
 
@@ -83,6 +84,10 @@ class Skills extends Component  {
             <div className='skill'>
               <img id='python' className='skill_img' src={logos.python} onMouseOver={this.onHover} onMouseOut={this.offHover}/>
               {this.state.python ? (<p className='skill_name'>Python</p>) : (<br />)}
+            </div>
+            <div className='skill'>
+              <img id='chart' className='skill_img' src={logos.chart} onMouseOver={this.onHover} onMouseOut={this.offHover}/>
+              {this.state.chart ? (<p className='skill_name'>Chart.js</p>) : (<br />)}
             </div>
             <div className='skill'>
               <img id='mocha' className='skill_img' src={logos.mocha} onMouseOver={this.onHover} onMouseOut={this.offHover}/>

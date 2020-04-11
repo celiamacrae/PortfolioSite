@@ -22,7 +22,8 @@ const logos = {
   logisim: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Logisim-icon.svg/1200px-Logisim-icon.svg.png',
   mips: 'https://mipsprotection.com/wp-content/uploads/2020/02/MIPS-LOGO-2018-RGB.jpg',
   firebase: 'https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_0016c93c710cf35990b999cba3a59bae/firebase.png',
-  heroku: 'https://cdn.iconscout.com/icon/free/png-512/heroku-5-569467.png'
+  heroku: 'https://cdn.iconscout.com/icon/free/png-512/heroku-5-569467.png',
+  chart: 'https://www.chartjs.org/img/chartjs-logo.svg'
 }
 
 export default logos
