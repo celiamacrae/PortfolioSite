@@ -13,7 +13,7 @@ const Experience = () => {
 
         <div className='experience'>
           <h1>Grace Hopper Program at Fullstack Academy</h1>
-          <h3>Software Engineering Sutdent (2019-2020)</h3>
+          <h3>Software Engineering Student (2019-2020)</h3>
           <img className='eduex_img' src='https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/2625/s300/161012-gh-facebook-profile-2x.jpg' />
         </div>
 
