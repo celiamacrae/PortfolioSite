@@ -121,6 +121,14 @@ class Skills extends Component  {
 
           <div className='skill_set'>
             <div className='skill'>
+              <img id='jasmine' className='skill_img' src={logos.jasmine} onMouseOver={this.onHover} onMouseOut={this.offHover}/>
+              {this.state.jasmine ? (<p className='skill_name'>Jasmine</p>) : (<br />)}
+            </div>
+            <div className='skill'>
+              <img id='materialui' className='skill_img' src={logos.materialui} onMouseOver={this.onHover} onMouseOut={this.offHover}/>
+              {this.state.materialui ? (<p className='skill_name'>Material-UI</p>) : (<br />)}
+            </div>
+            <div className='skill'>
               <img id='scheme' className='skill_img' src={logos.scheme} onMouseOver={this.onHover} onMouseOut={this.offHover}/>
               {this.state.scheme ? (<p className='skill_name'>Scheme</p>) : (<br />)}
             </div>

@@ -62,29 +62,63 @@ body, body > div {
 
 /*PROJECTS */
 
+#project_wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project{
+  /* border-radius: 25%; */
+  border-style: solid ;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  justify-self: center;
+}
+
 .project_img{
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
+  margin: 10px;
   border-radius: 25%;
   border-style: solid ;
 }
 
-#allprojects{
-  display: flex;
-  flex-direction: column;
-}
-
-#my_projects{
-  display: flex;
-  justify-content: center;
-}
-
-.project{
-  border-radius: 5%;
-  border-style: solid ;
-  padding: 10px;
+.project_repo{
+  height: 50px;
+  width: 50px;
   margin: 10px;
+  border-radius: 25%;
+  border-style: solid ;
 }
+
+.projinfo{
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+.repo{
+  display: flex;
+  align-items: center;
+}
+
+.deployedproj{
+  display: flex;
+  align-items: center;
+}
+
+.fullstackdev{
+  font-style: italic;
+}
+
+
+
 
 
 /*EDUCATION AND EXPERIENCE */
