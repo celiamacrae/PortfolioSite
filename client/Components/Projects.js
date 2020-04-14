@@ -23,7 +23,7 @@ const Projects = () => {
               </div>
               <div className='deployedproj'>
                 <img className='project_img' src='https://avatars2.githubusercontent.com/u/60450249?s=400&u=b50a16566758429f3ee239735bdadd7ab61b9abc&v=4' />
-                <a href='https://github.com/celiamacrae/Graphit2.0'>Check out GraphIt</a>
+                <a href='https://gh-graphit.herokuapp.com/'>Check out GraphIt</a>
               </div>
             </div>
 
@@ -55,11 +55,11 @@ const Projects = () => {
             <div>
               <div className='repo'>
                 <img className='project_repo' src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png' />
-                <a href='https://github.com/celiamacrae/Graphit2.0'>Project Repo</a>
+                <a href='https://github.com/1911-GH-mushrooms/GraceShopper'>Project Repo</a>
               </div>
               <div className='deployedproj'>
                   <img className='project_img' src='https://avatars3.githubusercontent.com/u/59840616?s=200&v=4' />
-                  <a href='https://github.com/celiamacrae/Graphit2.0'>Check out Grace Shopper</a>
+                  <a href='https://graceshopper2020mushroom.herokuapp.com/home'>Check out Grace Shopper</a>
               </div>
             </div>
 
