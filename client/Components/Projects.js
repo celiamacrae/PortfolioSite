@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 const Projects = () => {
     return (
       <div>
+        <br />
         <h1 id='my_projects'>My Projects</h1>
         <div className='project'>
           <img className='project_img' src='https://avatars3.githubusercontent.com/u/59840616?s=200&v=4' />
