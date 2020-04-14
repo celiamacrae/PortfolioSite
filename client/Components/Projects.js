@@ -48,7 +48,7 @@ const Projects = () => {
           <h1>Grace Shopper</h1>
           <h3 className='fullstackdev'>Fullstack Developer, 2020</h3>
           <br />
-          <p>Grace Shopper is E-commerce web application where users can purchase groceries and recipes.</p>
+          <p>Grace Shopper is eCommerce web application where users can purchase groceries and recipes.</p>
           <br />
 
           <div className='projinfo'>

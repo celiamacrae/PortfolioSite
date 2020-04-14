@@ -100,7 +100,6 @@ body, body > div {
 .projinfo{
   display: flex;
   flex-direction: row;
-  align-content: space-between;
 }
 
 .repo{

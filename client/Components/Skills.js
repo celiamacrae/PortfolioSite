@@ -129,6 +129,14 @@ class Skills extends Component  {
               {this.state.materialui ? (<p className='skill_name'>Material-UI</p>) : (<br />)}
             </div>
             <div className='skill'>
+              <img id='firebase' className='skill_img' src={logos.firebase} onMouseOver={this.onHover} onMouseOut={this.offHover}/>
+              {this.state.firebase ? (<p className='skill_name'>Firebase</p>) : (<br />)}
+            </div>
+            <div className='skill'>
+              <img id='heroku' className='skill_img' src={logos.heroku} onMouseOver={this.onHover} onMouseOut={this.offHover}/>
+              {this.state.heroku ? (<p className='skill_name'>Heroku</p>) : (<br />)}
+            </div>
+            <div className='skill'>
               <img id='scheme' className='skill_img' src={logos.scheme} onMouseOver={this.onHover} onMouseOut={this.offHover}/>
               {this.state.scheme ? (<p className='skill_name'>Scheme</p>) : (<br />)}
             </div>
@@ -143,14 +151,6 @@ class Skills extends Component  {
             <div className='skill'>
               <img id='mips' className='skill_img' src={logos.mips} onMouseOver={this.onHover} onMouseOut={this.offHover}/>
               {this.state.mips ? (<p className='skill_name'>MIPS</p>) : (<br />)}
-            </div>
-            <div className='skill'>
-              <img id='firebase' className='skill_img' src={logos.firebase} onMouseOver={this.onHover} onMouseOut={this.offHover}/>
-              {this.state.firebase ? (<p className='skill_name'>Firebase</p>) : (<br />)}
-            </div>
-            <div className='skill'>
-              <img id='heroku' className='skill_img' src={logos.heroku} onMouseOver={this.onHover} onMouseOut={this.offHover}/>
-              {this.state.heroku ? (<p className='skill_name'>Heroku</p>) : (<br />)}
             </div>
           </div>
 
