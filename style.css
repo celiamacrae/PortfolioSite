@@ -79,10 +79,12 @@ body, body > div {
   justify-content: center;
 }
 
-/* .project{
-  display: flex;
-  justify-content: center;
-} */
+.project{
+  border-radius: 5%;
+  border-style: solid ;
+  padding: 10px;
+  margin: 10px;
+}
 
 
 /*EDUCATION AND EXPERIENCE */
