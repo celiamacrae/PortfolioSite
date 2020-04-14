@@ -20,7 +20,7 @@ const Experience = () => {
         <div className='experience'>
           <h1>Duke University</h1>
           <h3>Bachelors Degree Computer Science & Sociology Minor (2015-2019)</h3>
-          <h5>Relevant Cousework: Data Structures and Algorithms - Discrete Math for Computer Science - Computer Architecture - Introduction to Operating Systems - Introduction to the Design & Analysis of Algorithms - Everything Data - Technical and Social Analysis of Information and the Internet - Laboratory Calculus II - Probability</h5>
+          <h5>Relevant Cousework: Introduction to Computer Science - Data Structures and Algorithms - Discrete Math for Computer Science - Computer Architecture - Introduction to Operating Systems - Introduction to the Design & Analysis of Algorithms - Everything Data - Technical and Social Analysis of Information and the Internet - Laboratory Calculus II - Probability</h5>
           {/* <img className='eduex_img' src='https://media.glassdoor.com/sqll/2775/duke-university-squarelogo.png' /> */}
           <img className='eduex_img' src='https://pbs.twimg.com/media/DZPSsn5VAAAlYO9.jpg:large' />
         </div>
