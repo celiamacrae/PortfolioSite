@@ -122,9 +122,21 @@ body, body > div {
 
 /*EDUCATION AND EXPERIENCE */
 
+#experiences{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experience{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .eduex_img{
-  height: 50px;
-  width: 50px;
+  height: 100px;
+  width: 100px;
 }
 
 
