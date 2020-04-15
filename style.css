@@ -16,6 +16,7 @@ body, body > div {
 }
 
 
+
 /*NAVIGATION*/
 
 #nav {
@@ -32,34 +33,54 @@ body, body > div {
 }
 
 
-/*SKILLS*/
 
-.skill_level{
-  display: flex;
-  justify-content: center;
-}
+/* ABOUT */
 
-.skill_set{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.skill{
+#about{
   display: flex;
   flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+/*EDUCATION AND EXPERIENCE */
+
+#experiences{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experience{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  width: 800px;
+  border-style: solid ;
   margin: 10px;
 }
 
-.skill_name{
-  align-self: center;
+.eduex_img{
+  height: 100px;
+  width: 100px;
 }
 
-.skill_img{
-  height: 90px;
-  width: 90px;
+#courses{
+  text-align: center;
 }
+
+#ghdesc{
+  text-align: center;
+}
+
+.responsibilities{
+  font-size: 13.28px;
+}
+
 
 
 /*PROJECTS */
@@ -124,50 +145,35 @@ body, body > div {
 
 
 
-/* ABOUT */
+/*SKILLS*/
 
-#about{
+.skill_level{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
 }
 
-
-
-/*EDUCATION AND EXPERIENCE */
-
-#experiences{
+.skill_set{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.experience{
+.skill{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 10px;
-  width: 800px;
-  border-style: solid ;
   margin: 10px;
 }
 
-.eduex_img{
-  height: 100px;
-  width: 100px;
+.skill_name{
+  align-self: center;
 }
 
-#courses{
-  text-align: center;
+.skill_img{
+  height: 90px;
+  width: 90px;
 }
 
-#ghdesc{
-  text-align: center;
-}
-
-.responsibilities{
-  font-size: 13.28px;
-}
 
 
 /*CONTACT*/
