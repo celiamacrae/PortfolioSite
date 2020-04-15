@@ -2,7 +2,12 @@ import React, {Component} from 'react'
 
 const About = () => {
     return (
-      <h1>About Component</h1>
+      <div id='about'>
+        <br />
+        <h1>
+          Hello, World. I am Celia Macrae. I am a full-stack web developer based in New York, NY.
+        </h1>
+      </div>
     )
 }
 
