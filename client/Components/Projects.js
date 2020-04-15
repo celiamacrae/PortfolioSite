@@ -5,10 +5,10 @@ const Projects = () => {
     return (
       <div id='project_wrapper'>
         <br />
-        <h1>My Projects</h1>
+        {/* <h1>My Projects</h1> */}
 
         <div className='project'>
-          <h1>GraphIt</h1>
+          <h1 className='project_name'>GraphIt</h1>
           <h3 className='fullstackdev'>Fullstack Developer, 2020</h3>
           <br />
           <p>GraphIt is a platform that transforms uploaded data from a non-technical user to “magically” produce the most appropriate graph in seconds.</p>
@@ -45,7 +45,7 @@ const Projects = () => {
         </div>
 
         <div className='project'>
-          <h1>Grace Shopper</h1>
+          <h1 className='project_name'>Grace Shopper</h1>
           <h3 className='fullstackdev'>Fullstack Developer, 2020</h3>
           <br />
           <p>Grace Shopper is eCommerce web application where users can purchase groceries and recipes.</p>
@@ -82,7 +82,7 @@ const Projects = () => {
         </div>
 
         <div className='project'>
-          <h1>Study Buddy</h1>
+          <h1 className='project_name'>Study Buddy</h1>
           <h3 className='fullstackdev'>Fullstack Developer, 2020</h3>
           <br />
           <p>Study Buddy is an IOS meetup app for study groups that allows you to create and attend events.</p>

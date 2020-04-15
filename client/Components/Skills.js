@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import logos from '../logos'
+import {logos} from '../logos'
 
 class Skills extends Component  {
 
