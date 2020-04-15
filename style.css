@@ -44,6 +44,12 @@ body, body > div {
   text-align: center;
 }
 
+#self{
+  width: 200px;
+  height: 200px;
+  border-radius: 25%;
+}
+
 
 
 /*EDUCATION AND EXPERIENCE */
