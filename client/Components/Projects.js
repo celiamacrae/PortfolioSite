@@ -23,7 +23,7 @@ const Projects = () => {
               </div>
               <div className='deployedproj'>
                 <img className='project_img' src='https://avatars2.githubusercontent.com/u/60450249?s=400&u=b50a16566758429f3ee239735bdadd7ab61b9abc&v=4' />
-                <a href='https://gh-graphit.herokuapp.com/'>Check out GraphIt</a>
+                <a href='https://graphit2.herokuapp.com/'>Check out GraphIt</a>
               </div>
             </div>
 
